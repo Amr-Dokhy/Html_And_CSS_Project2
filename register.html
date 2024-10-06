@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  
+    <form action="action.html" enctype="" method="">
+     <legend>Registration Form</legend>
+            <div class="row">
+                <label for="uname">User Name</label>
+                <input type="text" id="uname" name="" maxlength="15" placeholder="Ex:Amr" required>
+            </div>
+            <div class="row">
+                <label for="psw">Password</label>
+                <input type="password" id="psw" name="" maxlength="15" placeholder="Password" required>
+            </div>
+            <div class="row">
+                <label>Upload your cv</label>
+                <input type="file">
+            </div>
+            <div class="row">
+                <label>Color</label>
+                <input type="color">
+            </div>
+            <div class="row">
+                <label>Number</label>
+                <input type="number">
+            </div>
+            <div class="row">
+                <label>Please Enter Your Email</label>
+                <input type="email">
+            </div>
+            <div class="row">
+                <label>Please Enter Your Site</label>
+                <input type="url">
+            </div>
+            <div class="row">
+                <label>Gender</label>
+                <div class="genderdiv">
+                    <input type="radio" id="male" name="xo">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" id="female" name="xo">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="row">
+                    <label for="">Select City</label>
+                    <select name="" id="">
+                        <optgroup label="Big Cairo">
+                                <option value="">Cairo</option>
+                                <option value="">Giza</option>
+                                <option value="">Qalubia</option>
+                        </optgroup>
+                        <optgroup label="Upper Egypt">
+                            <option value="">Bani Swif</option>
+                            <option value="">Menia</option>
+                            <option value="">Luxor</option>
+                            <option value="">Aswan</option>
+                    </optgroup>
+                    </select>
+            </div>
+            <div class="row">
+                <label for="">Comment</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="row">
+                <label>Hobbies</label>
+                <div class="genderdiv">
+                    <input type="checkbox" id="ch1">
+                    <label for="ch1">Play Football</label>
+                    <br>
+                    <input type="checkbox" id="ch2">
+                    <label for="ch2">Watching TV</label>
+                    <br>
+                    <input type="checkbox" id="ch3">
+                    <label for="ch3">Play Video Games</label>
+                </div>
+            </div>
+            <div class="row">
+                <label>Please Enter Your Birthdate</label>
+                <!-- <input type="date">
+                <input type="time"> -->
+                <input type="datetime-local">
+            </div>
+            <div class="row">
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+            </div>
+    </form>
+
+</body>
+</html>
